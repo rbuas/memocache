@@ -1,6 +1,6 @@
 {
   "name": "memocache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodejs module to manage memory cache usage",
   "main": "memocache.js",
   "scripts": {
