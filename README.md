@@ -24,7 +24,7 @@ Or clone it direct from the repository :
 TODO
 
 ```javascript
-var jsext = require('jsext');
+var MemoCache = require('memocache');
 
 //TODO
 ```
