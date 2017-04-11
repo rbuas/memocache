@@ -1,7 +1,7 @@
 global.ROOT_DIR = process.cwd() || __dirname;
 
 var expect = require("chai").expect;
-var MemoCache = require(ROOT_DIR + "/rocks/memocache/memocache");
+var MemoCache = require("./memocache");
 
 describe("unit.memocache", function() {
     var mcache;

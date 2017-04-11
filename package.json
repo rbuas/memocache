@@ -4,7 +4,7 @@
   "description": "Nodejs module to manage memory cache usage",
   "main": "memocache.js",
   "scripts": {
-    "test": "mocha test/*.unittest.js"
+    "test": "mocha *.unittest.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,9 @@
   "author": "rbuas <rodrigobuas@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "object-sizeof": "^1.1.1",
-    "moment": "^2.18.1"
+    "jsext": "^1.0.1",
+    "moment": "^2.18.1",
+    "object-sizeof": "^1.1.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",

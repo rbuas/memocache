@@ -6,10 +6,8 @@
  */
 module.exports = MemoCache;
 
-global.ROOT_DIR = process.cwd() || __dirname;
-
 var sizeof = require("object-sizeof");
-var PriorityQueue = require(ROOT_DIR + "/rocks/jss/priorityqueue");
+var PriorityQueue = require("jsext").PriorityQueue;
 
 function MemoCache (options) {
     this.options = Object.assign({}, this.DEFAULTOPTIONS, options);
