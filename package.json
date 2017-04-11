@@ -4,7 +4,7 @@
   "description": "Nodejs module to manage memory cache usage",
   "main": "memocache.js",
   "scripts": {
-    "test": "mocha *.unittest.js"
+    "unittest": "mocha *.unittest.js"
   },
   "repository": {
     "type": "git",
