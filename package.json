@@ -1,0 +1,28 @@
+{
+  "name": "memocache",
+  "version": "1.0.0",
+  "description": "Nodejs module to manage memory cache usage",
+  "main": "memocache.js",
+  "scripts": {
+    "test": "mocha test/*.unittest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git@github.com/rbuas/memocache.git"
+  },
+  "keywords": [
+    "memory",
+    "cache"
+  ],
+  "author": "rbuas <rodrigobuas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "object-sizeof": "^1.1.1",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "yargs": "^4.8.0"
+  }
+}
