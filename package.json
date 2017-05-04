@@ -17,7 +17,7 @@
   "author": "rbuas <rodrigobuas@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "jsext": "^1.0.1",
+    "jsext": "*",
     "moment": "^2.18.1",
     "object-sizeof": "^1.1.1"
   },
